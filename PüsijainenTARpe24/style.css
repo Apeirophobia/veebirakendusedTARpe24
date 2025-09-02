@@ -1,0 +1,47 @@
+h1{
+    background-color: #4b0082; /*tausta värv*/
+    color: darkgray; /*teksti värv*/
+}
+header, footer{
+    font-family: Georgia;
+    font-size: large;
+    width: 60%;
+    border: 2px solid black;
+    background-color: indigo;
+    color: darkgray;
+    border-radius: 10px;
+    padding: 10px; /*vahe teksti ja piiri vahel*/
+}
+nav ul{
+    list-style-type: none;
+    text-align: center; /*teksti joondamine keskele */
+    width: 50%;
+    margin: 2%;
+    padding: 0;
+    background-color: #4b0082;
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    padding: 1%
+}
+
+main{
+    display: block;
+    margin: 2%;
+    padding: 2%;
+}
+
+nav a:hover{/* link fookuses*/
+background-color: grey;}
+
+nav li a{
+    font-family: Georgia;
+    font-size: large;
+    text-decoration: none;
+    border-right: solid gray 2px;
+    border-left: solid gray 2px;
+    border-radius: 20px;
+    padding: 10px;
+}
