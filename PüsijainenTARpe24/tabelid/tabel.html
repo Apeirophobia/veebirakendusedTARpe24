@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabelid HTML/CSS kujundusega</title>
+    <link rel="stylesheet" href="tabelStyle.css">
+</head>
+<body>
+<h1>Tabelid</h1>
+<table id="lihtne">
+    <caption>Lihtne värvitud tabel</caption>
+    <!--1.rida-->
+    <tr>
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <!--2.rida-->
+    <tr>
+        <td>C</td>
+        <td>D</td>
+    </tr>
+</table>
+ <!-- natuke keerulisem tabel -->
+<table id="keeruline1">
+    <caption>Natuke keerulisem tabel</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td rowspan="2">A</td>
+        <td>B</td>
+    </tr>
+    <!--2.rida-->
+    <tr>
+        <td>C</td>
+    </tr>
+</table>
+
+<table id="keeruline2">
+    <caption>veel keerulisem tabel</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <!--2.rida-->
+    <tr>
+        <!-- colspan ühendab mitu veergu-->
+        <td colspan="2">C</td>
+    </tr>
+</table>
+
+<table id="keeruline3">
+    <caption>töö tabel</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td>A</td>
+        <td colspan="3">B</td>
+
+    </tr>
+    <!--2.rida-->
+    <tr>
+        <!-- colspan ühendab mitu veergu-->
+        <td colspan="2">C</td>
+        <td rowspan="3">D</td>
+        <td rowspan="3">E</td>
+    </tr>
+    <tr>
+        <td>F</td>
+        <td>G</td>
+    </tr>
+    <tr>
+        <td colspan="2">I</td>
+    </tr>
+</table>
+
+<table id="keeruline4">
+    <caption>snail</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td colspan="6">A</td>
+
+
+    </tr>
+    <!--2.rida-->
+    <tr>
+        <!-- colspan ühendab mitu veergu-->
+        <td rowspan="4">B</td>
+        <td colspan="4">C</td>
+        <td rowspan="4">D</td>
+    </tr>
+    <tr>
+        <td rowspan="2">F</td>
+        <td colspan="2">G</td>
+        <td rowspan="3">H</td>
+    </tr>
+    <tr>
+        <td>I</td>
+        <td>J</td>
+    </tr>
+    <tr>
+        <td colspan="3">K</td>
+    </tr>
+    <tr>
+        <td colspan="6">L</td>
+    </tr>
+</table>
+
+<table id="parktilinetoo">
+    <caption>praktiline töö</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td rowspan="1" colspan="1">1</td>
+        <td colspan="2"> </td>
+        <td rowspan="3">7</td>
+        <td rowspan="3">9</td>
+        <td rowspan="3">11</td>
+    </tr>
+
+    <!--2.rida-->
+    <tr>
+        <!-- colspan ühendab mitu veergu-->
+        <td rowspan="1"> </td>
+        <td rowspan= "1" colspan="2">3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">2</td>
+        <td rowspan="1" colspan="2">4</td>
+        <!--3 -->
+    </tr>
+
+
+
+    <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>8</td>
+        <td colspan="2">10</td>
+        <!-- 6-->
+    </tr>
+</table>
+
+<!-- LISA -->
+<table id="lisa">
+    <caption>LISA</caption>
+    <!--1.rida-->
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <!-- rowspan ühendab mitu rida-->
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+
+</table>
+
+
+</body>
+</html>

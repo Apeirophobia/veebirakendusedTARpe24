@@ -5,20 +5,28 @@ h1{
 header, footer{
     font-family: Georgia;
     font-size: large;
-    width: 60%;
+    width: 100%;
     border: 2px solid black;
-    background-color: indigo;
+    background-color: #4b0082;
     color: darkgray;
     border-radius: 10px;
     padding: 10px; /*vahe teksti ja piiri vahel*/
+
 }
+footer#teine{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
 nav ul{
     list-style-type: none;
     text-align: center; /*teksti joondamine keskele */
     width: 50%;
     margin: 2%;
     padding: 0;
-    background-color: #4b0082;
+    background-color: orange;
 }
 
 nav li {
@@ -31,6 +39,9 @@ main{
     display: block;
     margin: 2%;
     padding: 2%;
+
+    /*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    */
 }
 
 nav a:hover{/* link fookuses*/
@@ -44,4 +55,107 @@ nav li a{
     border-left: solid gray 2px;
     border-radius: 20px;
     padding: 10px;
+}
+
+/************section************/
+section#osa1{
+    display: inline-block;
+    width: 20%;
+    border-right: 1px solid #4b0082;
+    border-left: 1px solid #4b0082;
+    border-bottom: 1px solid #4b0082;
+    border-radius: 60px;
+    padding: 2%;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+section#osa1 h3{
+    text-align: center;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#osa2{
+    display: inline-block;
+    width: 20%;
+    border-right: 2px dotted #4b0082;
+    border-left: 2px dotted #4b0082;
+    border-bottom: 2px dotted #4b0082;
+    border-radius: 60px;
+    padding: 2%;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+section#osa2 h3{
+    text-align: center;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#osa3{
+    display: inline-block;
+    width: 20%;
+    border-right: 3px dashed #4b0082;
+    border-left: 3px dashed #4b0082;
+    border-bottom: 3px dashed #4b0082;
+    border-radius: 60px;
+    padding: 2%;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+section#osa3 h3{
+    text-align: center;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+section#pildigalerii h3{
+    text-align: center;
+    width: 10%;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+section#video h3{
+    text-align: center;
+    width: 10%;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+section#muusika h3{
+    text-align: center;
+    width: 10%;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
+}
+
+section#kaart h3{
+    text-align: center;
+    width: 10%;
+    background-color: #4b0082;
+    color: darkgray;
+    border-radius: 60px;
+    padding: 2%;
 }
