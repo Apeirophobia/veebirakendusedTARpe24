@@ -1,0 +1,38 @@
+
+div#seletus{
+    background-color: mistyrose;
+    padding: 2%;
+    width: 30%;
+    height: 360px;
+    position: absolute;
+    left: 600px;
+    top: 80px;
+}
+
+h1{
+    background-color: wheat;
+    width: 170px;
+    font-family: "Script MT Bold", cursive;
+    text-align: center;
+}
+
+h3{
+    font-family: "Script MT Bold", cursive;
+    text-align: center;
+    width: 170px;
+}
+
+div{
+    text-align: left;
+    position: absolute;
+    font-family: "Script MT Bold", cursive;
+}
+
+a {
+    top: 140px;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+    font-family: "Script MT Bold", cursive;
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Pildikaart map/area kasutamine</title>
+    <link rel="stylesheet" href="majaStyle.css">
+</head>
+
+<body>
+<h1>Maja pildikaart</h1>
+<h3>Hiirse klik on akna, seina, katuse peale</h3>
+<img src="majake.png" alt="Ilus majake" usemap="#maja">
+<map name="maja">
+    <!--aken ring coords (x, y, R)-->
+    <!-- https://www.friv.com/z/games/freegear/game.html?f -->
+    <area shape="circle" coords="135,198,31" href="aken.html" alt="">
+    <!-- rect coords (x, y, x1, y2) -->
+    <area shape="rect" coords="80,148,190,248" href="sein.html" alt="">
+    <!-- katus - polügoon - poly coords (kõik koordinaadid vasakult paremale) -->
+    <area shape="poly" coords="23,152,119,80,243,149" href="katus.html" alt="">
+</map>
+<div id="ala">
+    Aken on hoone, sõiduki või muu objekti seinas, katuses või ukses paiknev ava, mis tavaliselt võimaldab lasta sisse valgust ja õhku.
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thu…2008_03_21.JPG/250px-Varjakansaari_2008_03_21.JPG">
+</div>
+
+<!-- <img src="Kolm venda.png" alt="kolm venda">
+-->
+</body>
+</html>

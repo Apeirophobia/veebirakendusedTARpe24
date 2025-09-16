@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Pildikaart map/area kasutamine</title>
+    <link rel="stylesheet" href="majaStyle.css">
+</head>
+
+<body>
+<h1>Maja pildikaart</h1>
+<h3>Hiirse klik on akna, seina, katuse peale</h3>
+<img src="majake.png" alt="Ilus majake" usemap="#maja">
+<map name="maja">
+    <!--aken ring coords (x, y, R)-->
+    <!-- https://www.friv.com/z/games/freegear/game.html?f -->
+    <area shape="circle" coords="135,198,31" href="aken.html" alt="">
+    <!-- rect coords (x, y, x1, y2) -->
+    <area shape="rect" coords="80,148,190,248" href="sein.html" alt="">
+    <!-- katus - polügoon - poly coords (kõik koordinaadid vasakult paremale) -->
+    <area shape="poly" coords="23,152,119,80,243,149" href="katus.html" alt="">
+</map>
+<div id="ala">
+    Katus on ehitise ülemine osa, mis koosneb eri materjalidest ja konstruktsioonilistest elementidest ning toetub ehitise seintele ja tugedele.
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thu…/a1/BM_Great_Court2.jpg/250px-BM_Great_Court2.jpg">
+</div>
+
+
+<!-- <img src="Kolm venda.png" alt="kolm venda">
+-->
+</body>
+</html>
